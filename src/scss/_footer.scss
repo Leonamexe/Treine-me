@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+
+  a {
+    font-weight: bold;
+    color: $color-text;
+    text-decoration: none;
+    opacity: 0.5;
+
+    &:hover {
+      font-weight: bold;
+      opacity: 1;
+    }
+  }
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

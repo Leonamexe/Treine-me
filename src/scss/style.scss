@@ -1,0 +1,16 @@
+@use 'variables' as *;
+
+@use 'all';
+
+body {
+  margin: 0;
+  font-family: $font-primary;
+  background: linear-gradient(180deg, $gradient-start 82.08%, $gradient-end 100%);
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}

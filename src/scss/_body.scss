@@ -1,0 +1,52 @@
+@use 'variables' as *;
+
+h1,
+ul {
+  font-family: $font-secondary;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: $color-text;
+    font-weight: normal;
+    width: 490px;
+
+    span {
+      color: $color-highlight;
+      font-weight: bold;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 28px;
+    color: $color-paragraph;
+    margin: 40px 0;
+  }
+}
+
+a.btn-sucess {
+  color: white;
+  text-transform: uppercase;
+  font-family: $font-primary;
+  background: $color-button;
+  border: 0;
+  padding: 14px 32px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+    opacity: 1; 
+  }
+}
